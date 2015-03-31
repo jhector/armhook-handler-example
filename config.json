@@ -1,0 +1,14 @@
+{
+    "hooks": [
+        {
+            "relative": 1141,
+            "handler": "handler_get_value",
+            "base": "example_target",
+            "library": "/data/libhandler.so"
+        }
+    ],
+    "settings": {
+        "libc": "libc.so",
+        "helper": "/data/libarmhook.so"
+    }
+}
